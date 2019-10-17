@@ -1,7 +1,12 @@
 -------------------------SCRIPTS---------------------------
 util.py
 CreateDataDict.py
+        Creates dictionary with data for given variable and experiments
+        Requires xarray, intake, util
+        Outputs dataset_info, dset_dict, modelnames
 CreateTimeSeries.py
+        Creates dictionary with datasets for given scenarios
+        For each scenario, dataset is xarray with coordinates lat/lon/time, variables            are model names
 
 -------------------------NOTEBOOKS-------------------------
 CreateTimeSeriesDictionary.ipynb
